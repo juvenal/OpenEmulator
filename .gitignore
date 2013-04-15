@@ -1,0 +1,36 @@
+# Xcode noise
+[Bb]uild/
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.pbxuser
+!default.pbxuser
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+*.log
+
+# version control noise CVS, SVN, git, hg and patches
+CVS
+.svn
+.git*
+.hg*
+
+# OSX noise
+.DS_Store
+profile
+
+# Generic noise
+*.lock
+*.orig
+*.rej
+*.swp
+*.out
+*.bak*
+*~
